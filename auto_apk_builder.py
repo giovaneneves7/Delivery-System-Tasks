@@ -2,14 +2,14 @@ import paramiko
 import os
 
 # Configurações de conexão SSH
-HOST = '0.tcp.sa.ngrok.io'
-PORT = 14469
-USERNAME = 'Administrator'
-PASSWORD = '123456@Lucas'
+HOST = 'MY_HOST'
+PORT = 22
+USERNAME = 'USERNAME'
+PASSWORD = 'PASSWORD'
 
 
-LOCAL_DIR = '~/Downloads/codecanyon-xgVfDTjz-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website/user_app_and_web'
-REMOTE_DIR = r'C:\Users\Administrator\Dev\flutter_lab'
+LOCAL_DIR = '~/MY/LOCAL/DIR' # Linux Pattern
+REMOTE_DIR = r'C:\Users\USER\DIR\' # Windows Pattern
 
 COMPILATION_COMMAND = 'flutter build apk --release --no-shrink'
 
